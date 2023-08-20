@@ -3,8 +3,8 @@ import logging
 import itertools
 from flask import Flask, request, render_template, jsonify
 import requests
-TOKEN = '6549801048:AAFHFaoqt6ZQHji97fRPmFUL9yYIi2aYIN8'
-CHAT_ID = '5113667204'
+TOKEN = 'Your Token ID from botfather'
+CHAT_ID = 'Your Chat ID'
 app = Flask(__name__)
 
 # Set up logging
